@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jay-don Linger">
+    <title>Jay-don's Blog</title>
+</head>
+<body>  
+     <div class="tekst">
+    <article>
+    <h1>Apex legends</h1>
+    <h2>Wat is Apex legends</h2>
+    <p>Apex Legends is een battle royalespel dat is ontwikkeld door Respawn Entertainment en uitgegeven door EA. Het gratis spel is op 4 februari 2019 uitgekomen voor PlayStation 4, Windows en Xbox One. Het is in 2021 ook beschikbaar gekomen voor Nintendo Switch. </p>
+    <img src="img/apex-legends.webp" alt="" class="imgg">
+    <h2>wat is een battle royale</h2>
+    <p>Battle royale is een multiplayer-computerspelgenre. Battle royale is een subgenre van survivalspellen waarin een groot aantal spelers tegen elkaar strijd leveren om de laatste overlevende te zijn. De naam van het genre is afgeleid van de film Battle Royale uit 2000.
+        Het genre verwierf in het begin van de jaren 10 populariteit door mods voor Minecraft en ARMA 2. Rond 2017 kwamen spellen als The Culling en H1Z1: King of the Kill uit, die als volledig losstaande spellen verkocht werden. In 2017 verkreeg het genre mainstreampopulariteit toen PlayerUnknown's Battlegrounds uitkwam; van het spel waren binnen een jaar meer dan 30 miljoen exemplaren verkocht.[1] In september 2017 werd de battle-royalemodus van Fortnite uitgebracht, dat nog succesvoller in spelersaantallen werd dan PlayerUnknown's Battlegrounds.
+        In 2018 zijn battle-royalemodi toegevoegd aan Call of Duty: Black Ops 4 en Battlefield V, die beide in oktober 2018 zijn uitgekomen.
+        In juni 2019 bracht ook Fallout 76 de game mode battle royale uit onder de naam Nuclear Winter.
+        In oktober 2019 bracht Activision Call of Duty: Mobile uit op Android en iOS, een game met Battle Royale. </p>
+    <h2>welke legend is mijn favoriet</h2>
+    <div class="container">
+        <div class="col">
+            <P class="kort">
+                In Apex legend noemen wij de characters legends en mijn favoriete legend is Valkyrie. Valkyrie is en character met een jetpack en rockets,zij zit in de skirmisher class.
+                Kairi "Valkyrie" Imahara, geboren in 2704 op Angelia, was de dochter van Viper, een beruchte huurling die voor de Apex Predators werkte. Ze had veel respect en bewondering voor haar vader en wilde in zijn voetsporen treden als piloot. Viper nam haar vaak mee voor ritjes in zijn aangepaste Northstar. Hij vond het echter niet leuk dat zijn dochter piloot werd en vertelde haar dat deze Titans "doodsvallen" waren.
+                lke legend is verdeeld in 5 klasse               
+            </P>
+
+            <div>
+                <p> 
+                <ol>
+                <li>Assault</li>
+                <li>skirmisher</li>
+                <li>support</li>
+                <li>controller</li> 
+                </ol>
+            
+                 Assault Legends zijn die met vaardigheden die nuttig zijn in het midden van de gevechten.
+                Met hun klasse-perk kunnen ze het geheime compartiment in Weapon Supply Bins openen, 
+                dat altijd bevestigingen bevat. Ze kunnen ook meer munitie meenemen in een enkele voorraadslot. 
+                Skirmisher Legends zijn mensen met vaardigheden die helpen om gemakkelijk in en uit gevechten te komen. 
+                Hun lesperk stelt hen in staat om de inhoud van een zorgpakket van een afstand te zien, en als het zorgpakket al is geplunderd, 
+                kunnen ze zien wat er van is afgenomen. Recon Legends zijn mensen met vaardigheden voor het verkennen en het verzamelen van vijandelijke informatie.
+                Hun klasse-perk stelt hen in staat om te communiceren met Survey Beacons om vijandelijke posities op de minimap gedurende 30 seconden te onthullen. Legends zijn mensen met vaardigheden voor het beschermen, 
+                inleven of bevoorrading van squadmates. Met hun klasse-perk kunnen ze het geheime compartiment openen in Extended Supply Bins, dat altijd regenregenitems of survivaloverlevingsitems bevat. 
+                Ze geven hun team ook de mogelijkheid om Replicators te gebruiken om respawn-bannerkaarten te maken voor hun geëlimineerde squadleden.
+                 Controller Legends zijn die met vaardigheden die een locatie versterken of vijanden vangen. 
+                 Hun klasse-perk stelt hen in staat om te communiceren met Ring Consoles om te onthullen waar de Ring zal krimpen.
+
+            </div>
+            
+        
+
+
+        </div>
+
+        <div class="col">
+           
+                            <img src="img/Valkyrie_Apex.webp" alt="" class="f">
+                            <iframe width="450" height="280" src="https://www.youtube.com/embed/PJYy-e3kXnU?si=3xn3F6gV5PHscJ1n" title="Meet Valkyrie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe class="youtube">
+                        </div>
+                        
+
+        
+        
+    </div>
+   
+    </article>
+    <footer >
+       
+        jay-don 
+        
+        <div class="audio"> 
+            <button id="playButton">voice lines</button>
+            <audio id="myAudio" style="display:none;">
+                <source src="audio/audio1.mp3" type="audio/mpeg">
+            </audio>
+        
+            <script>
+                const audioFiles = [
+                    'audio/audio1.mp3',
+                    'audio/audio2.mp3',
+                    'audio/audio3.mp3',
+                    'audio/audio4.mp3',
+                    'audio/audio5.mp3',
+                ];
+        
+                document.getElementById('playButton').addEventListener('click', function() {
+                    const randomIndex = Math.floor(Math.random() * audioFiles.length);
+                    const selectedAudio = audioFiles[randomIndex];
+        
+                    // Updating the existing audio element's source
+                    const audioPlayer = document.getElementById('myAudio');
+                    audioPlayer.src = selectedAudio;
+                    audioPlayer.play();
+                });
+            </script>
+        </div>
+        
+    </footer> 
+    
+</body>
+</html>
